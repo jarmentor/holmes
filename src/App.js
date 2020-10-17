@@ -1,12 +1,12 @@
 import React from 'react'
-import { Header, Footer, Main } from './containers'
-
+import { Header, Footer } from './containers'
+import Bedrock from './Bedrock'
 
 function App() {
     return (
         <>
             <Header />
-            <Main/>
+            <Bedrock />
             <Footer />
         </>
     )
